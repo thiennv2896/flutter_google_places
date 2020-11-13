@@ -109,7 +109,7 @@ class _PlacesAutocompleteOverlayState extends PlacesAutocompleteState {
             children: <Widget>[
               IconButton(
                 color: theme.brightness == Brightness.light
-                    ? Colors.black45
+                    ? Colors.white
                     : null,
                 icon: _iconBack,
                 onPressed: () {
